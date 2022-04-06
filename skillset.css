@@ -1,0 +1,91 @@
+.skillset {
+  display: block;
+  margin: auto;
+  width: 80%;
+  background-color: var(--color-light-gray);
+  color: var(--color-dark-gray);
+  overflow: hidden;
+}
+.skillset_title {
+  color: var(--color-white);
+}
+.skillset_left {
+  display: block;
+  float: left;
+  width: 60%;
+  padding: 45px;
+  background-color: var(--color-dark-gray);
+}
+.skillset_left > h3 {
+  color: var(--color-bright-gray);
+}
+.skill {
+  margin-bottom: 32px;
+}
+.skill_description {
+  display: inline-block;
+  width: 100%;
+  color: var(--color-bright-gray);
+}
+.skill_bar {
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-gray);
+}
+.skill_value {
+  height: 3px;
+  background-color: var(--color-orange);
+}
+.skillset_right {
+  width: 40%;
+  float: right;
+}
+.tools {
+  display: block;
+  width: 100%;
+  top: 0;
+  right: 0;
+  background-color: var(--color-gray);
+  padding: 20px;
+}
+.tools > h3 {
+  color: var(--color-bright-gray);
+}
+.tools > ul {
+  list-style-type: none;
+}
+.tools > ul > li {
+  text-decoration: none;
+  text-align: center;
+}
+.tools > ul > li > a {
+  color: var(--color-bright-gray);
+}
+.etc {
+  width: 100%;
+  padding: 20px;
+  background-color: var(--color-light-gray);
+  display: block;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+.etc > h3 {
+  color: var(--color-bright-gray);
+}
+.etc > ul {
+  list-style-type: none;
+}
+.etc > ul > li {
+  text-decoration: none;
+  text-align: center;
+}
+.etc > ul > li > a {
+  color: var(--color-bright-gray);
+}
+
+@media screen and (max-width: 768px) {
+  .skillset {
+    flex-direction: column;
+  }
+}

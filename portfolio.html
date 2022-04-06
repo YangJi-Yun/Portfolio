@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="imgs/favicon.png">
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portifolio.js" defer></script>
+    <title>Jiyun's Portfolio</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <div id="background_head">
+      <header id="navbar">
+        <div class="navbar_logo">
+          <a href="#">Jiyun's Portfolio</a><span class="material-icons-outlined">face</span>
+        </div>
+        <nav class="navbar_menu">
+          <ul class="navbar_menu">
+            <li class="navbar_menu_item active" data-link="#home">Home</li>
+            <li class="navbar_menu_item" data-link="#about">About</li>
+            <li class="navbar_menu_item" data-link="#skills">Skill</li>
+            <li class="navbar_menu_item" data-link="#work">Projects</li>
+            <!-- <li class="navbar_menu_item" data-link="#career">My career</li> -->
+            <li class="navbar_menu_item" data-link="#contact">Contact</li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Home -->
+      <section id="home">
+        <div class="home_container">
+          <img src="imgs/jiyun.jpg" alt="Jiyu's Profile photo" class="home_avatar">
+        <h1 class="home_title">Hello, <br/>I'm Jiyun</h1>
+        <h2 class="home_description">안녕하세요. 풀스택 개발자가 되고 싶은 열정 가득 신입 개발자입니다.</h2>
+        <button class="home_contact" data-link="#contact">Contact Me</button>
+        </div>
+      </section>
+    </div>
+    <!-- About -->
+    <section id="about">
+      <h1><i class="fas fa-link"></i> About me</h1>
+      <div class="about_info">
+        <div class="name">
+          <div class="about_icon"><i class="fas fa-user"></i></div>
+          <div class="about_desc">이름<p>양지윤</p></div>
+        </div>
+        <div class="name">
+          <div class="about_icon"><i class="fas fa-calendar"></i></div>
+          <div class="about_desc">생년월일<p>90.02.19</p></div>
+        </div>
+        <div class="name">
+          <div class="about_icon"><i class="far fa-map-marker-alt"></i></div>
+          <div class="about_desc">주소지<p>경기도 안양시</p></div>
+        </div>
+        <div class="name">
+          <div class="about_icon"><i class="fas fa-phone-alt"></i></div>
+          <div class="about_desc">연락처<p>010-0000-6499</p></div>
+        </div>
+        <div class="name">
+          <div class="about_icon"><i class="fas fa-envelope"></i></div>
+          <div class="about_desc">이메일<a href="mailto:gkdldmaal@gmail.com"><p>gkdldmaal@gmail.com</p></a></div>
+        </div>
+        <div class="name">
+          <div class="about_icon"><i class="fas fa-head-side-brain"></i></div>
+          <div class="about_desc">mbti<p>ISTP</p></div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section id="skills">
+      <h1><i class="fas fa-link"></i> Skills</h1>
+      <div class="skills_majors">
+        <div class="skills_majors_box">
+          <div class="major">
+            <div class="major_icon"><i class="fab fa-html5"></i></div>
+            <h2 class="major_title">Front-end</h2>
+          </div>
+          <div class="skill_icon">
+            <div class="major_description"><i class="fab fa-html5"></i><p>HTML</p></div>
+            <div class="major_description"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+            <div class="major_description"><i class="fab fa-js-square"></i><p>JavaScript</p></div>
+            <div class="major_description"><img class="jquery" src="imgs/jquery.svg" alt=""><p>jQuery</p></div>
+          </div>
+        </div>
+        <div class="skills_majors_box">
+          <div class="major">
+            <div class="major_icon"><i class="fas fa-server"></i></div>
+            <h2 class="major_title">Back-end</h2>
+          </div>
+          <div class="skill_icon">
+            <div class="major_description"><i class="fab fa-java"></i><p>Java</p></div>
+            <div class="major_description"><i class="fab fa-java"></i><p>Servelets&Jsp</p></div>
+            <a href=" https://www.mysql.com"><div class="major_description"><img class="jquery" src="imgs/MySQL.png" alt=""><p>MySQL</p></div></a>
+          </div>
+        </div>
+        <div class="skills_majors_box">
+          <div class="major">
+            <div class="major_icon"><i class="fas fa-tools"></i></div>
+            <h2 class="major_title">Tools</h2>
+          </div>
+          <div class="skill_icon">
+            <div class="major_description"><img class="visualstudio" src="imgs/visualstudio.png" alt=""><p>Visual Studio</p></div>
+            <div class="major_description"><img class="atom" src="imgs/atom.png" alt=""><p>Atom</p></div>
+            <a href="http://www.eclipse.org/logotm/"><div class="major_description"><img class="eclipseide" src="imgs/Eclipse2014_RGB.png" alt=""><p>Eclipse IDE</p></div></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Work-->
+    <section id="work" class="section">
+      <div class="section_container">
+        <h1>Projects</h1>
+        <div class="work_categories">
+          <button class="category_btn selected" data-filter="*">
+            All<span class="category_count">2</span>
+          </button>
+          <button class="category_btn" data-filter="Front-end">
+            Front-end<span class="category_count">1</span>
+          </button>
+          <button class="category_btn" data-filter="Back-end">
+            Back-end<span class="category_count">1</span>
+          </button>
+        </div>
+      </div>
+      <div class="work_projects">
+        <a href="https://github.com/YangJi-Yun/portfolio.git" class="project" target="_blank" data-type="Front-end">
+          <img class="project_img" src="imgs/portfolioimg.png" alt="프로젝트한 사진들">
+          <div class="project_description">
+            <h3>Portfolio</h3>
+            <p>css3, html5, JavaScript</p>
+          </div>
+        </a>
+        <a href="https://github.com/YangJi-Yun/MealKit.git" class="project" target="_blank" data-type="Back-end">
+          <img class="project_img" src="imgs/MealKitMain.png" alt="프로젝트한 사진들">
+          <div class="project_description">
+            <h3>MealKit 온라인 쇼핑몰</h3>
+            <p>css, html, JavaScript, jQuery, BootStrap, Java, Serveltes&Jsp, MySQL</p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- career-->
+    <!-- <section id="career" class="section">
+      <div class="section container">
+        <h1>My carrer</h1>
+        <div class="career">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <p>Quas, sit? Quibusdam illum esse aspernatur, consequatur odit suscipit doloribus impedit.</p>
+          <p>Perspiciatis sunt id maiores voluptates! Amet sunt eos dolore eveniet nam.</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <p>Quas, sit? Quibusdam illum esse aspernatur, consequatur odit suscipit doloribus impedit.</p>
+          <p>Perspiciatis sunt id maiores voluptates! Amet sunt eos dolore eveniet nam.</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <p>Quas, sit? Quibusdam illum esse aspernatur, consequatur odit suscipit doloribus impedit.</p>
+          <p>Perspiciatis sunt id maiores voluptates! Amet sunt eos dolore eveniet nam.</p>
+          <br>
+        </div>
+      </div>
+    </section> -->
+    <!-- Contact -->
+    <section id="contact">
+      <h1 class="contact_title">Let's talk</h1>
+      <div class="contact_links">
+        <a href="https://github.com/YangJi-Yun" target="_blank"><i class="fab fa-github"></i></a>
+        <!-- <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a> -->
+      </div>
+      <p class="contact_rights">2021. Yang Ji Yun. All rights reserved</p>
+    </section>
+    <!--Arrow up-->
+    <button class="arrow-up">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
+</html>
