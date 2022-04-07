@@ -1,6 +1,7 @@
 
 # JiYun's Portfolio
-[JiYun's Portfolio](https://yangji-yun.github.io/Portfolio/portfolio.html)
+2021.08.01-2021.08.11(1人 개인 프로젝트)<br/>
+
 
 ## 📌Summary
 포트폴리오 웹사이트
@@ -18,3 +19,6 @@
 * Tools : <img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=flat-square&logo=Visual Studio&logoColor=white"/>
 
 * Deployment : <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/>
+
+## 🔗 Link
+[JiYun's Portfolio](https://yangji-yun.github.io/Portfolio/portfolio.html)
